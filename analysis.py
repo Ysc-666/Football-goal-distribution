@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('D:\\个人文件\\自学\\Kaggle\\world cup matches\\match_events.csv')
+df = pd.read_csv('match_events.csv')
 goals = df[df['event_type'] == 'Goal']
 
 # Data reading and inspection
