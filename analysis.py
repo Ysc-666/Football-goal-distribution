@@ -28,7 +28,7 @@ plt.ylabel('Number of Goals')
 plt.title('Goal Time Distribution (Regular Time)')
 
 plt.xticks(range(0, 91, 5))
-plt.savefig('distribution of goals in each minutes',dpi = 300,bbox_inches = 'tight')
+plt.savefig('distribution of goals in each minute.png',dpi = 300,bbox_inches = 'tight')
 plt.show()
 
 
