@@ -28,7 +28,7 @@ plt.ylabel('Number of Goals')
 plt.title('Goal Time Distribution (Regular Time)')
 
 plt.xticks(range(0, 91, 5))
-# plt.savefig('distribution of goals in each minutes',dpi = 1080,bbox_inches = 'tight')
+plt.savefig('distribution of goals in each minutes',dpi = 300,bbox_inches = 'tight')
 plt.show()
 
 
@@ -58,7 +58,7 @@ plt.pie(counts.values,
         colors = ['#66b3ff', '#ff9999', '#99ff99'])
 plt.title('Distribution of goals')
 plt.axis('equal')
-# plt.savefig('half_comparison.png',dpi = 1080,bbox_inches = 'tight')
+plt.savefig('half_comparison.png',dpi = 300,bbox_inches = 'tight')
 plt.show()
 
 
@@ -80,5 +80,5 @@ plt.xlabel('Interval (minute)')
 plt.ylabel('Number of Goals')
 for i, v in enumerate(interval_counts.values):    
     plt.text(i, v + 0.5, str(v), ha='center')
-# plt.savefig('interval_analysis.png', dpi=1080, bbox_inches='tight')
+plt.savefig('interval_analysis.png', dpi=300, bbox_inches='tight')
 plt.show()
