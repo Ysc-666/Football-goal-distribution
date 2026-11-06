@@ -4,7 +4,7 @@ Using Python (**pandas** + **matplotlib**) to process the match-event database o
 
 ## Overview
 
-This project reads the match-event data, organizes the important events, extracts every goal, and analyzes how goals are distributed across the minutes of a match. As an amateur football enthusiasts and a Data Science & AI student, I wanted to test whether common beliefs — such as "more goals happen late in the game" or "stoppage time is the most dramatic period" — are actually supported by real data.
+This project reads the match-event data, organizes the important events, extracts every goal, and analyzes how goals are distributed across the minutes of a match. As an amateur football enthusiast and a Data Science & AI student, I wanted to test whether common beliefs — such as "more goals happen late in the game" or "stoppage time is the most dramatic period" — are actually supported by real data.
 
 ## Dataset
 
@@ -50,7 +50,7 @@ Descriptive statistics for the 294 goals:
 
 1. **Goals are NOT evenly spread across the 90 minutes.** The per-minute chart shows two very sharp peaks: **14 goals recorded at minute 45 and 34 at minute 90**. These are stoppage-time goals, which the dataset records as whole numbers (45 and 90) — they are not sudden bursts of regular goals.
 
-2. **The periods just before half-time and full-time are the highest.** In the 15-minute interval chart, the **31–45** and **76–90** bars are the tallest, partly because they include the 45'/90' stoppage-time goals. *(Fill in the exact count of each bar from the chart if you want exact numbers.)*
+2. **The periods just before half-time and full-time are the highest.** In the 15-minute interval chart, the **31–45** and **76–90** bars are the tallest, partly because they include the 45'/90' stoppage-time goals. 
 
 3. **More goals are scored in the second half.** The mean (53.6) and median (54.5) are both above 45 minutes, and the pie chart shows the **Second Half** holding the largest share. This is likely related to fatigue, tactical changes, and teams pushing for a result late in the game — a possible cause, not something the data proves directly.
 
