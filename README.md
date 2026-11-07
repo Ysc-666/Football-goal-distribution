@@ -114,5 +114,3 @@ Football-goal-distribution/
 
 - Dataset: **FIFA World Cup 2026 Dataset - Live & Updated Stats** on Kaggle.
 - Built as a learning project while studying Data Science & AI at Hong Kong Metropolitan University.
-
-My first git practice.
